@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+   >
+
+    <Button
+        android:id="@+id/topscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/but_normal"
+        android:clickable="false"
+        android:text="@string/pt1"
+        android:textColor="@color/btc" />
+
+    <Button
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/but_normal"
+        android:clickable="false"
+        android:text="@string/pt0"
+        android:textColor="@color/btc" />
+
+    <Button
+        android:id="@+id/pback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/but_normal"
+        android:text="@string/pt2"
+        android:textColor="@color/btc" />
+
+    <TableLayout
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/mainbg"
+        android:padding="5dp" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/data00"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                android:clickable="false" />
+
+            <Space android:layout_width="5dp" />
+
+            <Button
+                android:id="@+id/data01"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                 
+                android:clickable="false" />
+
+            <Space android:layout_width="5dp" />
+
+            <Button
+                android:id="@+id/data02"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                android:clickable="false" />
+
+            <Space android:layout_width="5dp" />
+
+            <Button
+                android:id="@+id/data03"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                android:clickable="false" />
+        </TableRow>
+
+        <Space android:layout_height="5dp" />
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/data10"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                android:clickable="false" />
+
+            <Space android:layout_width="5dp" />
+
+            <Button
+                android:id="@+id/data11"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                android:clickable="false" />
+
+            <Space android:layout_width="5dp" />
+
+            <Button
+                android:id="@+id/data12"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                android:clickable="false" />
+
+            <Space android:layout_width="5dp" />
+
+            <Button
+                android:id="@+id/data13"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                android:clickable="false" />
+        </TableRow>
+
+        <Space android:layout_height="5dp" />
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/data20"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                android:clickable="false" />
+
+            <Space android:layout_width="5dp" />
+
+            <Button
+                android:id="@+id/data21"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                android:clickable="false" />
+
+            <Space android:layout_width="5dp" />
+
+            <Button
+                android:id="@+id/data22"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                android:clickable="false" />
+
+            <Space android:layout_width="5dp" />
+
+            <Button
+                android:id="@+id/data23"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                android:clickable="false" />
+        </TableRow>
+
+        <Space android:layout_height="5dp" />
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/data30"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                android:clickable="false" />
+
+            <Space android:layout_width="5dp" />
+
+            <Button
+                android:id="@+id/data31"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                android:clickable="false" />
+
+            <Space android:layout_width="5dp" />
+
+            <Button
+                android:id="@+id/data32"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                android:clickable="false" />
+
+            <Space android:layout_width="5dp" />
+
+            <Button
+                android:id="@+id/data33"
+                android:background="@drawable/block" android:textColor="@color/btc1"
+                android:clickable="false" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

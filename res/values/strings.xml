@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">2048</string>
+    <string name="action_settings">Settings</string>
+    <string name="st0">2048logo</string>
+    
+    <string name="st1">开始游戏</string>
+    <string name="st2">排行榜</string>
+    <string name="st3">退出</string>
+
+     <string name="pt0">当前分数\n\n0</string>
+     <string name="pt1">最高分数\n\n0</string>
+     <string name="pt2">退出</string>
+    
+     <string name="ht0">返回</string>
+     <string name="ht1">重置</string>
+      <string name="ht2">名次</string>
+       <string name="ht3">分数</string>
+</resources>
